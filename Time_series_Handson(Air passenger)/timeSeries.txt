@@ -1,0 +1,64 @@
+What is a Time Series?
+
+Definition:
+A time series is a sequence of data points collected or recorded at regular time intervals.
+Examples include daily stock prices, monthly sales figures, and yearly rainfall measurements.
+
+
+Key Components of Time Series
+
+Trend:
+The long-term movement or direction in the data over time.
+Example: An upward trend in a company’s sales over several years.
+
+Seasonality:
+Regular, repeating patterns or cycles in the data.
+Example: Higher ice cream sales in the summer months.
+
+Cyclic Patterns:
+Fluctuations that are not of a fixed period and can last longer than seasonal patterns.
+Example: Economic recessions occurring every few years.
+
+Noise:
+Random variations or "white noise" that cannot be attributed to trend, seasonality, or cycles.
+Example: Daily fluctuations in stock prices due to unpredictable events.
+
+
+Key Concepts in Time Series Analysis
+
+Stationarity:
+A stationary time series has constant mean and variance over time.
+Non-stationary series may show trends or seasonality.
+
+Lag:
+The time difference between observations.
+Example: Yesterday’s temperature compared to today’s temperature (lag of 1 day).
+
+Autocorrelation:
+The correlation of a time series with its own past values.
+High autocorrelation means past values strongly influence future values.
+
+
+Basic Techniques for Analyzing Time Series
+
+Smoothing:
+Techniques to reduce noise and highlight patterns.
+Example: Moving averages, where each data point is replaced by the average of itself and neighboring points.
+
+Decomposition:
+Breaking down a time series into trend, seasonality, and noise components.
+Helps in understanding and modeling the data.
+
+Forecasting:
+Predicting future values based on past data.
+Simple methods include linear regression and exponential smoothing.
+
+
+Applications of Time Series Analysis
+Finance: Stock price prediction, risk management.
+Economics: Economic indicators, GDP forecasting.
+Weather: Weather forecasting, climate studies.
+Healthcare: Disease outbreak prediction, patient monitoring.
+
+
+In summary, a time series is a collection of data points over time, showing trends, seasonality, and cycles, and is analyzed to identify patterns, reduce noise, and make forecasts
